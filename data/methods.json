@@ -1,0 +1,12 @@
+{
+  "methods": {
+    "layer7": {
+      "basic": ["TLS"],
+      "vip": ["HTTPS"]
+    },
+    "layer4": {
+      "basic": ["UDP"],
+      "vip": ["TCP"]
+    }
+  }
+}

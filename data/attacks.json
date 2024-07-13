@@ -1,0 +1,10 @@
+[
+    {
+        "methods": "TLS",
+        "command": "cd /root/methods/ && [SCREEN_CMD] node tls-jxdn [HOST] [TIME] 8 2"
+    },
+    {
+        "methods": "STOP",
+        "command": "pkill -f [SCREEN_NAME]"
+    }
+]
